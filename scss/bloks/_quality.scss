@@ -1,0 +1,35 @@
+.quality{
+  position: relative;
+  background-color: #2C343E;
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 168px;
+  padding: 88px 125px 176px 85px;
+  .quality__content{
+    width: 540px;
+    .quality__title{
+      margin: 0 0 32px 0;
+      font-family: "Fraunces", sans-serif;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 48px;
+      color: #FEFCF7;
+    }
+    .quality__text{
+      margin: 0;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      color: #FEFCF7;
+      opacity: 0.8;
+    }
+  }
+  .quality__img{
+    width: 445px;
+    height: 474px;
+    position: absolute;
+    top: -88px;
+    right: 85px;
+    border-radius: 10px;
+  }
+}

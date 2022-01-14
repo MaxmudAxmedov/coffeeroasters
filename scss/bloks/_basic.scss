@@ -1,0 +1,27 @@
+.basic{
+  width: 1280px;
+  height: 450px;
+  background-image: url("../img-optimal/Group7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 168px;
+  padding: 137px 750px 137px 85px;
+}
+.basic__content{
+  width: 445px;
+}
+.basic__title{
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin: 0 0 24px 0;
+}
+.basic__text{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  margin: 0;
+}

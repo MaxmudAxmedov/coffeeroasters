@@ -1,0 +1,118 @@
+.work{
+  width: 1045px;
+  margin: 300px auto 306px;
+}
+.work__title{
+  font-family: 'Fraunces', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0 0 80px 0;
+  color: #83888F;
+}
+.work__content{
+  position: relative;
+}
+.work__line{
+  width: 760px;
+  border: 1px solid #FDD6BA;
+  margin: 0;
+  margin-bottom: 82px;
+}
+.work__circle-one{
+  position: absolute;
+  top: -15px;
+  left: 0;
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  background: #FEFCF7;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+}
+.work__circle-two{
+  position: absolute;
+  top: -15px;
+  left: 380px;
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  background: #FEFCF7;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+}
+.work__circle-three{
+  position: absolute;
+  top: -15px;
+  left: 735px;
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  background: #FEFCF7;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+}
+input:checked ~ .work__circle-one{
+  background-color: #0E8784;
+}
+input:checked ~ .work__circle-two{
+  background-color: #0E8784;
+}
+input:checked ~ .work__circle-three{
+  background-color: #0E8784;
+}
+.work__list{
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.work__item{
+  width: 285px;
+}
+.work__item:nth-child(2){
+  margin: 0 95px;
+}
+.work__img{
+  width: 90px;
+  height: 72px;
+  object-fit: contain;
+  margin-bottom: 38px;
+}
+.work__subtitle{
+  width: 255px;
+  font-family: 'Fraunces', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin: 0 0 42px 0;
+}
+.work__text{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  margin: 0;
+}
+.work__btn{
+  position: absolute;
+  top: 500px;
+  width: 217px;
+  text-decoration: none;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 6px;
+  border: none;
+  background-color:  #0E8784;
+  color: #FEFCF7;
+  padding: 15px 29px 16px;
+  transition: all 0.2s ease-in-out;
+}
+.work__btn:hover{
+  background-color: #66D2CF;
+  transition: all 0.2s ease-in-out;
+}

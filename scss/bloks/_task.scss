@@ -1,0 +1,31 @@
+.task{
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 256px;
+}
+.task__img{
+  width: 445px;
+  height: 520px;
+}
+.task__content{
+  width: 540px;
+}
+.task__title{
+  margin: 0 0 32px 0;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+}
+.task__text{
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  opacity: 0.8;
+}
