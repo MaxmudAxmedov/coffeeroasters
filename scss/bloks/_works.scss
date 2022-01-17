@@ -1,6 +1,16 @@
+.works{
+  width: 100%;
+  background-image: url("../../img-optimal/bg__img.png");
+  background-repeat: no-repeat;
+  margin: 0 auto 159px;
+  padding: 117px 150px 107px 119px;
+}
 .work{
   width: 1045px;
   margin: 300px auto 306px;
+}
+.completed__work{
+  margin: 0;
 }
 .work__title{
   font-family: 'Fraunces', serif;
@@ -17,51 +27,72 @@
 .work__line{
   width: 760px;
   border: 1px solid #FDD6BA;
+  margin: 0 0 82px 15px;
+}
+.works__line{
+  width: 760px;
+  border: 1px solid #FDD6BA;
   margin: 0;
   margin-bottom: 82px;
 }
 .work__circle-one{
   position: absolute;
-  top: -15px;
-  left: 0;
-  display: inline-block;
-  width: 31px;
-  height: 31px;
-  background: #FEFCF7;
+  top: -14.5px;
+  left: -14.5px;
+  width: 29px;
+  height: 29px;
+  background-color: #FEFCF7;
   border: 2px solid #0E8784;
   border-radius: 50%;
 }
 .work__circle-two{
   position: absolute;
-  top: -15px;
-  left: 380px;
-  display: inline-block;
-  width: 31px;
-  height: 31px;
-  background: #FEFCF7;
+  top: -14.5px;
+  left: 365.5px;
+  width: 29px;
+  height: 29px;
+  background-color: #FEFCF7;
   border: 2px solid #0E8784;
   border-radius: 50%;
 }
 .work__circle-three{
   position: absolute;
-  top: -15px;
-  left: 735px;
-  display: inline-block;
-  width: 31px;
-  height: 31px;
-  background: #FEFCF7;
+  top: -14.5px;
+  right: 256px;
+  width: 29px;
+  height: 29px;
+  background-color: #FEFCF7;
   border: 2px solid #0E8784;
   border-radius: 50%;
 }
-input:checked ~ .work__circle-one{
-  background-color: #0E8784;
+.works__circle-one{
+  position: absolute;
+  top: -14.5px;
+  left: 1px;
+  width: 29px;
+  height: 29px;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
 }
-input:checked ~ .work__circle-two{
-  background-color: #0E8784;
+.works__circle-two{
+  position: absolute;
+  top: -14.5px;
+  left: 370.5px;
+  width: 29px;
+  height: 29px;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
 }
-input:checked ~ .work__circle-three{
-  background-color: #0E8784;
+.works__circle-thre{
+  position: absolute;
+  top: -14.5px;
+  right: 252px;
+  width: 29px;
+  height: 29px;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
 }
+
 .work__list{
   display: flex;
   list-style: none;
@@ -89,11 +120,28 @@ input:checked ~ .work__circle-three{
   color: #333D4B;
   margin: 0 0 42px 0;
 }
+.works__subtitle{
+  width: 255px;
+  font-family: 'Fraunces', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FEFCF7;
+  margin: 0 0 42px 0;
+}
 .work__text{
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
   color: #333D4B;
+  margin: 0;
+}
+.works__text{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
   margin: 0;
 }
 .work__btn{
