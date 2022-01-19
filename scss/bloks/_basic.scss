@@ -1,10 +1,11 @@
 .basic{
-  width: 1280px;
+  width: 100%;
+  max-width: 1280px;
   height: 450px;
   background-image: url("../img-optimal/Group7.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 168px;
+  margin-bottom: 144px;
   padding: 137px 750px 137px 85px;
 }
 .completed{
@@ -13,7 +14,8 @@
   background-image: url("../../img-optimal/Bitmap-3page.png");
 }
 .basic__content{
-  width: 445px;
+  width: 100%;
+  max-width: 445px;
 }
 .basic__title{
   font-family: "Fraunces", sans-serif;
@@ -28,5 +30,87 @@
   font-size: 16px;
   line-height: 26px;
   color: #FEFCF7;
+  opacity: 0.8;
   margin: 0;
+}
+// @media only screen and(max-width: 768px){
+//   .basic{
+//     width: 100%;
+//     max-width: 689px;
+//     padding: 137px 750px 137px 85px;
+//     background-position: calc(50% + 10px);
+//   }
+//   .basic__content{
+//     width: 100%;
+//     max-width: 398px;
+//   }
+// }
+
+@media only screen and(min-width: 770px) and (max-width: 1440px){
+  .basic{
+    padding: 118px 433px  118px 78px;
+    background-position: calc(50% + 10px);
+  }
+}
+
+@media only screen and(min-width: 769px) and (max-width: 1024px){
+  .basic{
+    padding: 118px 413px  118px 78px;
+    background-position: calc(50% + 10px);
+  }
+}
+
+@media only screen and(min-width: 635px) and (max-width: 768px){
+  .basic{
+    width: 100%;
+    max-width: 740px;
+    padding: 118px 233px  118px 68px;
+    background-position: calc(50% + 10px);
+    margin-bottom: 144px;
+  }
+  .basic__content{
+    width: 100%;
+    max-width: 398px;
+    
+  }
+  .basic__title{
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and(min-width: 376px) and (max-width: 634px){
+  .basic{
+    padding: 111px 34px 87px 34px;
+    background-position: calc(50% + 10px);
+    margin-bottom: 144px;
+  }
+  .basic__content{
+    width: 100%;
+    max-width: 320px;
+  }
+} 
+
+@media only screen and(max-width: 375px){
+  .basic{
+    width: 100%;
+    max-width: 327px;
+    padding: 111px 24px 87px 24px;
+    background-position: calc(50% + 10px);
+    margin-bottom: 120px;
+  }
+  .basic__content{
+    width: 100%;
+    max-width: 279px;
+    text-align: center;
+  }
+  .basic__title{
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+  .basic__text{
+    font-size: 15px;
+    line-height: 25px;
+  }
 }

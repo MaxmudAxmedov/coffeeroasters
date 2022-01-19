@@ -1,5 +1,6 @@
 .task{
-  width: 1110px;
+  width: 100%;
+  max-width: 1110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,4 +29,112 @@
   line-height: 26px;
   color: #333D4B;
   opacity: 0.8;
+}
+@media only screen and (min-width: 1025px)and(max-width: 1440px){
+  .task{
+    display: flex;
+  }
+  .task__img{
+    width: 100%;
+    max-width: 350px;
+    height: 500px;
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (min-width: 769px)and(max-width: 1024px){
+  .task{
+    width: 100%;
+    display: flex;
+    max-width: 883px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .task__img{
+    width: 100%;
+    max-width: 300px;
+    height: 470px;
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 769px){
+  .task{
+    width: 100%;
+    max-width: 683px;
+    align-items: flex-start;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .task__img{
+    width: 100%;
+    max-width: 281px;
+    height: 500px;
+    margin-right: 69px;
+  }
+  .task__content{
+    width: 100%;
+    max-width: 339px;
+  }
+  .task__title{
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and(min-width: 375px)and(max-width: 768px){
+  .task{
+    width: 100%;
+    max-width: 683px;
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .task__img{
+    width: 100%;
+    max-width: 683px;
+    height: 620px;
+    margin-bottom: 48px;
+  }
+  .task__content{
+    width: 100%;
+    max-width: 689px;
+    text-align: justify;
+  }
+  .task__content-box{
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  .task__title{ 
+    text-align: center;
+  }
+}
+@media only screen and(max-width: 375px){
+  .task{
+    width: 100%;
+    max-width: 327px;
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .task__img{
+    width: 100%;
+    max-width: 327px;
+    height: 400px;
+    margin-bottom: 48px;
+  }
+  .task__content{
+    width: 100%;
+    max-width: 327px;
+    text-align: center;
+  }
+  .task__title{
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .task__content{
+    font-size: 15px;
+    line-height: 25px;
+  }
 }
