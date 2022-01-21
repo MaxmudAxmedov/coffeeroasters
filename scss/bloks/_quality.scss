@@ -1,5 +1,4 @@
 .quality{
-  overflow: hidden;
   width: 100%;
   max-width: 1280px;
   position: relative;
@@ -9,35 +8,36 @@
   border-radius: 10px;
   margin-bottom: 168px;
   padding: 88px 125px 176px 85px;
-  .quality__content{
-    width: 100%;
-    max-width: 540px;
-    .quality__title{
-      margin: 0 0 32px 0;
-      font-family: "Fraunces", sans-serif;
-      font-weight: 900;
-      font-size: 40px;
-      line-height: 48px;
-      color: #FEFCF7;
-    }
-    .quality__text{
-      margin: 0;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 26px;
-      color: #FEFCF7;
-      opacity: 0.8;
-    }
-  }
-  .quality__img{
-    width: 100%;
-    max-width: 445px;
-    max-height: 474px;
-    position: absolute;
-    top: -88px;
-    right: 85px;
-    border-radius: 10px;
-  }
+
+}
+.quality__content{
+  width: 100%;
+  max-width: 540px;
+}
+.quality__title{
+  margin: 0 0 32px 0;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+.quality__text{
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+.quality__img{
+  width: 100%;
+  max-width: 445px;
+  max-height: 474px;
+  position: absolute;
+  top: -88px;
+  right: 85px;
+  border-radius: 10px;
 }
 @media only screen and (min-width: 769px) and(max-width: 1200px){
   .quality{
@@ -73,7 +73,8 @@
     display: none;
   }
   .imgs{
-    width: 573px;
+    width: 100%;
+    max-width: 573px;
     height: 320px;
     position: absolute;
     top: -160px;
@@ -83,9 +84,10 @@
     border-radius: 8px;
   }
   .quality__content{
-    width: 100px;
+    width: 100%;
     max-width: 540px;
     text-align: center;
+    // margin-top: 115px;
   }
 
 }
@@ -123,6 +125,7 @@
 }
 @media only screen and (max-width: 620px){
   .quality__img{
+    overflow: hidden;
     display: none;
   }
   .imgs{
@@ -210,8 +213,8 @@
   @media only screen and (max-width: 490px){
     .quality{
       width: 100%;
-      max-width: 400px;
-      padding: 200px 34px 67px 34px;
+      max-width: 450px;
+      padding: 200px 44px 67px 44px;
       position: relative;
     }
     .quality__img{
@@ -232,7 +235,7 @@
     }
     .quality__content{
       width: 100%;
-      max-width: 250px;
+      max-width: 350px;
       text-align: center;
     }
     .quality__title{
@@ -243,6 +246,12 @@
   }
 
   @media only screen and (max-width: 465px){
+    .quality{
+      width: 100%;
+      max-width: 450px;
+      padding: 200px 34px 67px 34px;
+      position: relative;
+    }
     .quality{
       padding: 200px 20px 67px 20px;
       position: relative;
@@ -276,6 +285,8 @@
   }
   @media only screen and (max-width: 445px){
     .quality{
+      width: 100%;
+      max-width: 450px;
       padding: 200px 24px 67px 24px;
       position: relative;
     }
@@ -304,7 +315,7 @@
   @media only screen and (max-width: 425px){
     .quality{
       width: 100%;
-      max-width: 327px;
+      max-width: 427px;
       padding: 142px 24px 61px 24px;
     }
     .quality__img{
@@ -321,7 +332,9 @@
       background-image: url("../../img-optimal/tablet-Bitmap-coffe.jpg");
       background-repeat: no-repeat;
       background-position: center center;
-      margin-bottom: 50px;
+    }
+    .quality__content{
+      margin-top: 50px;
     }
     .quality__title{
       font-size: 28px;
@@ -340,7 +353,7 @@
     }
     .imgs{
       width: 100%;
-      max-width: 300px;
+      max-width: 267px;
       height: 225px;
       position: absolute;
       top: -100px;
@@ -386,6 +399,7 @@
     width: 100%;
     max-width: 279px;
     text-align: center;
+    margin-top: 0;
   }
   .quality__title{
     font-size: 28px;
@@ -428,6 +442,8 @@
     text-align: center;
   }
   .quality__title{
+    width: 100%;
+    max-width: 279px;
     font-size: 24px;
     line-height: 24px;
     margin-bottom: 24px;
