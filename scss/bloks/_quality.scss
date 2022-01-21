@@ -1,4 +1,5 @@
 .quality{
+  overflow: hidden;
   width: 100%;
   max-width: 1280px;
   position: relative;
@@ -62,29 +63,7 @@
   }
 
 }
-// @media only screen and(max-width: 1200px){
-//   .quality{
-//     padding: 224px 74px 67px 74px;
-//     position: relative;
-//   }
-//   .quality__img{
-//     width: 100%;
-//     max-width: 445px;
-//     max-height: 474px;
-//     position: absolute;
-//     top: -88px;
-//     right: 25px;
-//     border-radius: 10px;
-//     flex-shrink: 1;
-//   }
-//   .quality__content{
-//     width: 100px;
-//     max-width: 200px;
-//     text-align: center;
-//     flex-shrink: 1;
-//   }
 
-// }
 @media only screen and(max-width: 768px){
   .quality{
     padding: 224px 74px 67px 74px;
